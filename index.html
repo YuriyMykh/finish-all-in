@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>new project All-In</title>
+</head>
+<body class="parallax background-restaurant" id="background-restaurant">
+  <div class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ALL-IN CAFE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#weather">Weather in New York</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Stories</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <main>
+    <div class="container fluid">
+      <div class="slide"
+        style="background-image: url('https://images.unsplash.com/photo-1576786143916-fbcc2e1a0f41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG9sZCUyMG5ldyUyMHlvcmt8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60');">
+        <h3><a class="delivery-links" href="https://www.google.com/maps/place/200+Neptune+Ave,+Brooklyn,+NY+11235,">We
+            located in New York</a></h3>
+      </div>
+      <div class="slide" style="
+                    background-image: url('https://images.unsplash.com/photo-1591182049964-dd291cf08172?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OXwxNDgxMzc5fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60');
+                  ">
+        <h3>All in Interior style</h3>
+      </div>
+      <div class="slide" style="
+                    background-image: url('https://images.unsplash.com/photo-1549194455-4e470ace956c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTZ8MTk5MDY0NXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60');
+                  ">
+        <h3><a class="delivery-links" href="#menu">Special Dishes</a></h3>
+      </div>
+      <div class="slide active" style="
+                    background-image: url('https://images.unsplash.com/photo-1542600176-9d2c4bb4bc1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJhcm1hbnN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60');
+                  ">
+        <h3>Luxury drinks</h3>
+      </div>
+      <div class="slide" style="
+                    background-image: url('https://images.unsplash.com/photo-1622020844503-630f46150a6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1lbnV8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60');
+                  ">
+        <h3><a class="delivery-links" href="#lunch">Unique Menu</a></h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <p class="lozung-main" data-aos="fade-up" data-aos-delay="250">We are created to take care of your health and
+          your great mood.
+          Be sure, we will deliver the taste to your heart</p>
+        <article class="food-menu-smooth card col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-right"
+          data-aos-delay="100">
+          <img src="img/menu.png" width="50" alt="Menu">
+          <a class="menu" href="#menu">Menu All-In</a>
+          <h4 class="card-choose-and-taste">Choose and taste</h4>
+        </article>
+        <article class="friends-smooth card col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-down"
+          data-aos-delay="200">
+          <img src="img/deliveri-icon.png" width="50" alt="Friends">
+          <a class="make-friend" href="#delivery">Delivery</a>
+          <h4 class="card-social-networks">Choose your servive</h4>
+        </article>
+        <article class="quality-of-food-smooth card col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-left"
+          data-aos-delay="300">
+          <img src=" img/quality-of-food.png" width="50" alt="Food">
+          <a class="quality" href="https://www.houseofgents.com/">House of Gents</a>
+          <h4 class="make-sure-of-that">Your reliable partner</h4>
+        </article>
+        <div class="facebook-link-smooth" data-aos="fade-up">
+          <a class="facebook" href="https://www.facebook.com/pg/Tanya-Mykhaylyuk-386830648523030/posts/"><img
+              class="facebook" src="img/facebook-icon.png" width="40" alt=Facebook></a>
+          <a class="instagram" href="https://www.instagram.com/tanyamyk/"><img src="img/instagram-icon.png" width="40"
+              alt=Instagram></a>
+          <a class="youtube" href="https://www.youtube.com/channel/UC0L7tg7EbN6ZXuDy5M0DQIA"><img src="img/youtube-icon.png" width="40"
+              alt=Youtube></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <section class="second">
+        <article>
+          <h2 class="frends-word" data-aos="fade-up">Your friends</h2>
+          <div class="card-group">
+            <div id="blog" class="about-tanya-smooth card col-12 col-sm-6 col-md-4 col-lg-3" data-parallax="scroll">
+              <img class="tanya" src="img/Tanya.JPG" alt="Photo Tanya">
+              <div class="card-body">
+                <h5 class="name-tanya">Tanya Mykhaylyuk</h5>
+                <p class="tanya-discription">Co-owner of the restaurant.
+                  She is responsible and creativ.
+                  Tanya is sure, that ones health
+                  depends on the food quality</p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Communicate
+              </button>
+            </div>
+            <div class="about-tanya-smooth card col-12 col-sm-6 col-md-4 col-lg-3">
+              <img class="tanya" src="img/Steve.JPG" alt="Photo Steve">
+              <div class="card-body">
+                <h5 class="name-tanya">Steve Baturov</h5>
+                <p class="tanya-discription">Co-owner of the restaurant.
+                  His main hobby is to cook
+                  always and ewerywhere.
+                  <q class="quote">There is nothimg imposible</q>
+                </p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Communicate
+              </button>
+            </div>
+            <div class="about-tanya-smooth card col-12 col-sm-6 col-md-4 col-lg-3">
+              <img class="tanya" src="img/Mark.JPG" alt="Photo Tanya">
+              <div class="card-body">
+                <h5 class="name-tanya">Mark Gavrilov</h5>
+                <p class="tanya-discription">Co-owner of the restaurant. Friendly, polite and responsible</p>
+              </div>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Communicate
+              </button>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+    <section class="two" data-aos="fade-up" data-aos-delay="250">
+      <h2 id="delivery" class="special-menu">Your delivery </h2>
+      <div class="container">
+        <div class="slide" style="
+                    background-image: url('https://images.unsplash.com/photo-1559941727-6fb446e7e8ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dWJlciUyMGVhdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60');
+                  ">
+          <h3><a class="delivery-links" href="https://www.ubereats.com/">Uber Eats</a></h3>
+        </div>
+        <div class="slide active" style="
+                    background-image: url('https://images.unsplash.com/photo-1610886147082-2f8dfa0c1f1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVsaXZlcnklMjBzZXJ2aWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60');
+                  ">
+          <h3><a class="delivery-links" href="https://www.instacart.com/">Instacart</a></h3>
+        </div>
+        <div class="slide" style="
+                    background-image: url('https://images.unsplash.com/photo-1548695607-9c73430ba065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVsaXZlcnl8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60');
+                  ">
+          <h3><a class="delivery-links" href="https://www.freshdirect.com/">freshdirect</a></h3>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="third-section row">
+        <h2 class="special-menu" data-aos="flip-left" data-aos-delay="300">Special deals</h2>
+        <article class="complex-smooth card col-12 col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in-left"
+          data-aos-delay="100">
+          <div id="lunch" class="lunch">
+            <h3 class="complex-lunch">LUNCH</h3>
+            <h4 class="eat-and-enjoy">Eat and enjoy</h4><span class="word">NO ALCOHOL</span>
+            <p class="price">15.99</p>
+            <div class="symbol">$</div>
+            <p class="word-2">Only</p>
+            <div>
+              <ul class="list-style-image">
+                <li class="list"><span>Everyday available</span></li>
+                <li class="list"><span>Pre-booking</span> </li>
+                <li class="list"><span>Main cource</span></li>
+                <li class="list"><span>Salad</span></li>
+                <li class="list"><span>Drink</span></li>
+              </ul>
+            </div>
+            <br>
+            <br>
+            <a class="details" href="#menu">Details</a><span class="details-word"></span>
+          </div>
+        </article>
+        <article class="small-dinner-smooth card col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="dinner">
+            <h3 class="small-dinner-lozung">SMALL DINNER</h3>
+            <h4 class="small-dinner-with-friends">Small dinner with friends</h4><span class="word-no-alcohol-2">NO
+              ALCOHOL</span>
+            <p class="price-2">29.99</p>
+            <div class="symbol-2">$</div>
+            <p class="word-only-2">Only</p>
+            <div>
+              <ul>
+                <li class="list-2"><span>Everyday available</span></li>
+                <li class="list-2"><span>Pre-booking</span></li>
+                <li class="list-2"><span>Main cource</span></li>
+                <li class="list-2"><span>Salad</span></li>
+                <li class="list-2"><span>Desert & Drink</span></li>
+              </ul>
+            </div>
+            <br>
+            <br>
+            <a class="details" href="#menu">Details</a><span class=" details-word-2"></span>
+          </div>
+        </article>
+        <article class="eat-and-game-smooth card col-12 col-sm-6 col-md-4 col-lg-3" data-aos="zoom-in-right"
+          data-aos-delay="100">
+          <div class="game-class">
+            <h3 class="ear-and-game-lozung">EAT AND GAME</h3>
+            <h4 class="you-can-try-your-luck">You can try your luck</h4><span class="word-aclohol-included">ALCOHOL
+              INCLUDED</span>
+            <p class="price-3">79.99</p>
+            <div class="symbol-3">$</div>
+            <p class="word-only-3">Only</p>
+            <div>
+              <ul>
+                <li class="list-3"><span>Only Saturdays & Sundays</span></li>
+                <li class="list-3"><span>Pre-booking</span></li>
+                <li class="list-3"><span>Unlimited dishes</span></li>
+                <li class="list-3"><span>Unlimited deserts</span></li>
+                <li class="list-3"><span>Alcohol included</span></li>
+              </ul>
+            </div>
+            <br>
+            <br>
+            <a class="details" href="#menu">Details</a><span class=" details-word-3"></span>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="container">
+      <div class="four-section row">
+        <h2 id="menu" class="special-menu" data-aos="fade-up">Menu</h2>
+        <article class="about-burgers-smooth card col-12 col-sm-6 col-md-4 col-lg-3">
+          <img class="new-york-burger" src="img/hamburgers.jpg" width="250" alt="Photo Burger">
+          <h3 class="All-in-hamburgers">All-in hamburgers</h3>
+          <h4 class="burger-discription">New York dally burgers. Cheesburger tacos. Beef and beetrot burgers. Steak
+            burgers.</h4>
+          <a class="details-hamburger" href="#try-it">Try it</a><span class="details-word-hamburger"></span>
+        </article>
+        <article class="about-fish-smooth card col-12 col-sm-6 col-md-4 col-lg-3">
+          <img class="fish" src="img/Salmon-dishes.jpg" width="250" alt="Photo Burger">
+          <h3 class="All-in-fish">All-in Fish</h3>
+          <h4 class="fish-description-discription">Salmon. Lrbster. Dorado. Seafood and salads.</h4>
+          <a class="details-fish" href="#try-it">Try it</a><span class="details-word-fish"></span>
+        </article>
+        <article class="about-pastas-smooth card col-12 col-sm-6 col-md-4 col-lg-3">
+          <img class="pasta" src="img/pasta-new.jpg" width="270" alt="Photo Burger">
+          <h3 class="All-in-pasta">All-in Pastas</h3>
+          <h4 class="pasta-description">Spaghetti. Lasagne. Raviolli. Rigatoni. Farfalle.Linguine.</h4>
+          <a class="details-pastas" href="#try-it">Try it</a><span class="details-word-pastas"></span>
+        </article>
+        <article class="about-desert-smooth card col-12 col-sm-6 col-md-4 col-lg-3">
+          <img class="desert" src="img/croissant.jpg" width="260" alt="Photo Burger">
+          <h3 class="All-in-Desert">All-in Desert</h3>
+          <h4 class="desert-discription">Croissants with nutella, pastry cream and ice cream, apples, peanut butter.
+            Pampkin Pie.</h4>
+          <a class="details-deserts" href="#try-it">Try it</a><span class="details-word-deserts"></span>
+        </article>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="pricing-table row col col-lg-12 text-center"data-aos = "fade-down" data-aos-delay="200">
+          <div id="weather" class="package-featured">
+            <p class="package-name">New York</p>
+            <p class="temp">10&deg;</p>
+            <img class="image-weather" src="img/weather.png" width="150" alt="Weather">
+            <p class="disclaimer">Clouds</p>
+            <ul class="features">
+              <li class="features-weather">feature 1</li>
+            </ul>
+            <br>
+            <a class="details-weather" href="https://openweathermap.org/city/5128581">Check for week</a><span
+              class="details-word"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <form id="try-it" class="footer-form" method="POST" action="https://formspree.io/f/xbjqwjrg">
+          <h3 class="find-your-table" id="button">Find and book your table</h3>
+          <div class="input" data-aos="fade-up">
+            <label class="your-name">
+              Your Name:<input type="text" name="Name" placeholder class="placeholder-1">
+            </label>
+            <br>
+            <label class="your-name">
+              Your Email:<input type="text" name="Your Email" placeholder class="placeholder-2">
+            </label>
+            <br>
+            <label class="your-name">
+              Your Date: <input type="text" name="Date" placeholder class="placeholder-3">
+            </label>
+            <br>
+            <label class="your-name">
+              Time: <input type="text" name="Time" placeholder class="placeholder-4">
+            </label>
+            <br>
+          </div>
+          <button class="footer-button"><span class="word-book-now">Book now</span></button>
+          <br>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <div class="five row">
+        <div class="border" data-aos="fade-right">
+          <h4 class="quater" data-aos="fade-up" data-aos-delay="300">Any restaurant is checked by the quality of the
+            Caesar salad - shake it off!</h4>
+          <h4 class="quater" data-aos="fade-up" data-aos-delay="300">“What is the secret of our long marriage? No matter
+            how busy we are, we go out to a restaurant twice a week. Candles on the table, dinner, pleasant music,
+            dancing. She dines at the restaurant on Thursdays, and I on Fridays."</h4>
+          <h4 class="quater" data-aos="fade-up" data-aos-delay="300">I am the king and you are the queen.</h4>
+            <p class="quater">- And New York?</p>
+            <p class="quater">- Well ... New York is our kingdom.</p>
+        </div>
+        <div class="border" data-aos="fade-left">
+          <h4 class="quater" data-aos="fade-up" data-aos-delay="300">The city seen from the Queensboro Bridge is always
+            the city seen for the first time, in its first wild promise of all the mystery and beauty in the world</h4>
+          <img class="ny-love" src="img/ny-new.jpg" alt="ny-love">
+        </div>
+      </div>
+    </main>
+  <footer>
+    <div id="contacts" class="container-fluid">
+      <div class="four-section row">
+        <div class="last-section" data-aos="fade-up" data-aos-delay="400">
+          <h4 class="company-info">Company info</h4>
+          <h3 class="last-all-in">All-In</h3>
+          <h4 class="get-in-touch">Get in Touch</h4>
+          <img class="telephone-icon" src="img/telephone-icon.png" width="70" alt="Main number">
+          <a class="tell" href="tell:9175440940">(917) 544-09-40</a>
+          <br>
+          <img class="email-icon" src="img/email-icon.png" width="70" alt="Main email">
+          <a href="mailto:"><span class="main-email">kozulia@yahoo.com</span></a>
+          <br>
+          <div class="facebook-link-smooth" data-aos="fade-up">
+            <a class="facebook" href="https://www.facebook.com/pg/Tanya-Mykhaylyuk-386830648523030/posts/"><img
+                class="facebook" src="img/facebook-icon.png" width="40" alt=Facebook></a>
+            <a class="instagram" href="https://www.instagram.com/tanyamyk/"><img src="img/instagram-icon.png" width="40"
+                alt=Instagram></a>
+            <a class="youtube" href="https://www.youtube.com/channel/UC0L7tg7EbN6ZXuDy5M0DQIA"><img src="img/youtube-icon.png" width="40"
+                alt=Youtube></a>
+            <a class="callto:" href="tell:9175440940"><img src="img/whatsapp.png" width="40" alt=Youtube></a>
+            <a class="callto:" href="tell:9175440940"><img src="img/telegram.png" width="40" alt=Youtube></a>
+          </div>
+          <a class="we-are-here" href="https://www.google.com/maps/place/200+Neptune+Ave,+Brooklyn,+NY+11235,">200
+            Neptune Avenue,
+            Brooklyn, NY</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Comunicate with Us</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Hello Friend. I am ready to provide the best service for you. You can find me in the "Stories" section or call
+          me by phone.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Our Stories</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-group">
+            <img class="tanya-modal-image" src="img/t.mykhaylyuk.jpg" width="95" alt="">
+            <img class="steve-modal-image" src="img/steve-modal.jpg" width="95" alt="">
+            <img class="mark-modal-image" src="img/gavrilov-modal.jpg" width="95" alt="">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a class="details-modal" href="https://www.facebook.com/tanya.mykhaylyuk">Tanya</a><span
+            class="details-word-1"></span>
+          <a class="details-modal" href="https://www.facebook.com/steve.baturov">Steve</a><span
+            class="details-word-2"></span>
+          <a class="details-modal" href="https://www.facebook.com/mark.gavrilov.1">Mark</a><span
+            class="details-word-3"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
+</body>
+
+</html>
